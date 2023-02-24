@@ -1,4 +1,4 @@
-const { Sequelize } = require("sequelize");
+/* const { Sequelize } = require("sequelize");
 
 require("dotenv").config();
 
@@ -29,3 +29,4 @@ const conectarDB = async () => {
 //exportaamos la funcion y la instancia para luego crear los modelos
 
 module.exports = { conectarDB, sequelize };
+ */

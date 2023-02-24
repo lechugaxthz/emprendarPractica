@@ -12,7 +12,7 @@ const app = express();
 
 // conectamos a la base de datos
 
-conectarDB();
+/* conectarDB(); */
 
 //habilitaamos cors
 const opcionesCors = {
@@ -31,7 +31,7 @@ const port = process.env.PORT || 3001;
 
 //definimos las rutas
 
-     app.use('/api/usuarios', require('./routes/usuarios'))
+app.use('/', require('./routes/usuarios'))
 
 
 //arrancar la app

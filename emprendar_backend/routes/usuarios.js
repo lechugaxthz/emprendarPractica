@@ -1,10 +1,12 @@
 const express = require('express');
-const { saludar} = require('../controllers/usuarioController');
+const userRq = require('../controllers/usuarios/usuariosRq');
 
 const router = express.Router();
 
 
-router.get('/',saludar)
+router.get('/', userRq)
+router.get('/', )
+router.get('/', )
 
 
 
