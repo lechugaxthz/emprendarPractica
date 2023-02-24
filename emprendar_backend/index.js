@@ -13,7 +13,7 @@ const app = express();
 // conectamos a la base de datos
 
 /* conectarDB(); */
-
+// sadasa
 //habilitaamos cors
 const opcionesCors = {
   origin: process.env.FRONTEND_URL,
